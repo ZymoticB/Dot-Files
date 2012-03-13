@@ -1,1 +1,3 @@
 Repo containing my dotfiles.
+
+Also added a color scheme for vi. Put this in ~/.vim/colors
