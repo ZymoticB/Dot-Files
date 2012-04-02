@@ -1,6 +1,9 @@
 set nu
 set ts=4
 set et
+" One backspace to delete a 4 space tab
+set softtabstop=4
+
 colorscheme 3dglasses
 syntax on
 set autoindent
