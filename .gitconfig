@@ -1,0 +1,5 @@
+[user]
+	name = Tyler Dixon
+	email = tdixon@demonware.net
+[alias]
+hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
