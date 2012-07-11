@@ -1,5 +1,6 @@
 Repo containing my dotfiles.
 
-Also added a color scheme for vi. Put this in ~/.vim/colors
+Requires pathogen by Tim Pope
 
-Email for gitconfig needs to be set.
+
+
