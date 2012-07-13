@@ -2,5 +2,6 @@ Repo containing my dotfiles.
 
 Requires pathogen by Tim Pope
 
+Clone -> git submodule init -> git submodule upodate -> move files to $HOME/.<name>
 
 
