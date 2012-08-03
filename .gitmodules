@@ -19,6 +19,3 @@
 [submodule "vim/bundle/vim-unimpaired"]
 	path = vim/bundle/vim-unimpaired
 	url = git://github.com/tpope/vim-unimpaired.git
-[submodule "vim/bundle/conque"]
-	path = vim/bundle/conque
-	url = https://github.com/lrvick/Conque-Shell.git
