@@ -2,8 +2,8 @@ call pathogen#infect()
 call pathogen#helptags()
 
 " Highlight characters after the 80th column
-highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-match OverLength /\%>80v.\+/
+" highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+" match OverLength /\%>80v.\+/
 
 set background=dark
 set ts=4
@@ -14,6 +14,10 @@ set softtabstop=4
 set encoding=utf-8
 set laststatus=2
 syntax enable
+" Disable escape key delay
+set noesckeys
+" Lower timeout
+set timeout timeoutlen=1000 ttimeoutlen=100
 
 colorscheme solarized
 
@@ -46,6 +50,7 @@ let NERDTreeIgnore=['\.pyc$', '\.pyo$', '\.rbc$', '\.rbo$', '\.class$', '\.o$', 
 " Default mapping, <leader>n
 map <leader>n :NERDTreeToggle<CR>
 noremap [14~ :set invpaste paste?<CR>
+noremap <F5> :GundoToggle<CR> 
 set pastetoggle=[14~ 
 augroup AuNERDTreeCmd
 autocmd AuNERDTreeCmd VimEnter * call s:CdIfDirectory(expand("<amatch>"))
